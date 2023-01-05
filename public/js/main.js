@@ -37,7 +37,7 @@ class bus {
         this.caisse = caisse;
     }
 
-    embarquer(personne,transport){
+    embarquer(départ,personne,transport){
         if (personne.argent > 0) {
             personne.argent = personne.argent - 2.8;
             this.caisse = this.caisse + 2.8;
