@@ -85,8 +85,8 @@ console.log(Maison);
 
 
 
-console.log(Nathan.argent);
-console.log(transport.caisse);
+console.log(Math.round(Nathan.argent * 100) / 100);
+console.log(Math.round(transport.caisse * 100) / 100);
 
 
 
