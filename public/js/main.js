@@ -60,7 +60,6 @@ alert(`Il est 8h, vous êtes à la ${Maison.nom}`);
 Nathan.seDeplacer(Maison,Molengeek,Nathan,transport);
 alert(`Il est 8h30, vous êtes dans le bus`);
 console.log(transport);
-console.log(Nathan);
 alert(`Il est 8h45, vous êtes à ${Molengeek.nom}`);
 console.log(Molengeek);
 
@@ -68,7 +67,6 @@ console.log(Molengeek);
 Nathan.seDeplacer(Molengeek,Snack,Nathan,transport);
 alert(`Il est 12h45, vous êtes dans le bus vers le ${Snack.nom}`);
 console.log(transport);
-console.log(Nathan);
 alert(`Il est 13h, vous êtes à ${Snack.nom}`);
 console.log(Snack);
 
@@ -82,7 +80,6 @@ console.log(Molengeek);
 Nathan.seDeplacer(Molengeek, Maison,Nathan,transport);
 alert(`Il est 17h10, vous êtes dans le bus vers la ${Maison.nom}`);
 console.log(transport);
-console.log(Nathan);
 alert(`Il est 17h30, vous êtes à la ${Maison.nom}`);
 console.log(Maison);
 
